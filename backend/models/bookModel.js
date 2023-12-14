@@ -16,7 +16,7 @@ const bookSchema = mongoose.Schema(
             },
     },
     {
-        timeStamps: true,
+        timeStamps: true,  // Enable automatic timestamp management
     }
 );
 
